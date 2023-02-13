@@ -5,8 +5,8 @@ public class convert {
         System.out.print("Kilobyte,kb  = ");
         double kilobyte = sc.nextDouble();
         double Megabyte , Gigabyte ;
-        Megabyte = kilobyte * 0.001;
-        Gigabyte = kilobyte  * 0.000001;
+        Megabyte = kilobyte / 1024.0;
+        Gigabyte = kilobyte  / 1048576;
         System.out.println("Megabyte = " + Megabyte +"MB");
         System.out.println("Gigabyte = " + Gigabyte + "GB");
     }
